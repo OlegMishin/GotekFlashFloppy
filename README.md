@@ -1,11 +1,13 @@
 # GotekFlashFloppy
-An external Gotek PCB for Amiga
+
+A Gotek based PCB for Amiga computer. Can be mounted externally and internally.
+Can be equipped with push buttons or with a rotary encoder. A 0.96" OLED display can be directly mounted using 4 spacers. 
 
 A 23-pin connector can be directly soldered to the pcb. Also, with an adapter pcb (23 to 32 pin) it can be mounted internally as "classic" Gotek pcb. 
 
 Firmware: 
 
-Please refer to FlashFloppy repository for the latest one: https://github.com/keirf/FlashFloppy
+Please refer to FlashFloppy's repository for the latest one: https://github.com/keirf/FlashFloppy
 
 
 
