@@ -11,6 +11,8 @@ Please refer to FlashFloppy's repository for the latest one: https://github.com/
 
 ## PCB:
 
+Two layers, 1.6mm thikness. Optimized for JLCpcb.
+
 3D render of the pcb:
 
 ![изображение](https://user-images.githubusercontent.com/81614352/147295152-706d75bf-d8f5-40ec-aabd-f7ac8d367e31.png)
