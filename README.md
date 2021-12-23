@@ -5,11 +5,11 @@ Can be equipped with push buttons or with a rotary encoder. A 0.96" OLED display
 
 A 23-pin connector can be directly soldered to the pcb. Also, with an adapter pcb (23 to 34 pin) it can be mounted internally as "classic" Gotek pcb. 
 
-Firmware: 
+#Firmware: 
 
 Please refer to FlashFloppy's repository for the latest one: https://github.com/keirf/FlashFloppy
 
-
+#PCB:
 
 3D render of the pcb:
 
