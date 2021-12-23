@@ -13,7 +13,7 @@ Please refer to FlashFloppy repository for the latest one: https://github.com/ke
 
 ![изображение](https://user-images.githubusercontent.com/81614352/147295152-706d75bf-d8f5-40ec-aabd-f7ac8d367e31.png)
 
-Adapter board:
+Adapter board(soldered side by side to the main pcb):
 
 ![изображение](https://user-images.githubusercontent.com/81614352/147295380-0f68693d-83f9-445c-b219-cb39a0d05e49.png)
 
