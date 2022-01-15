@@ -23,3 +23,9 @@ Adapter board(soldered side by side to the main pcb):
 ![изображение](https://user-images.githubusercontent.com/81614352/147295380-0f68693d-83f9-445c-b219-cb39a0d05e49.png)
 
 
+## An example of internal mount with a 3D printed frame
+Adapter's (frame) STL model is in CAD folder
+![изображение](https://user-images.githubusercontent.com/81614352/149626035-84b3a01c-4d0e-413d-bd10-ca4955fdb4cc.png)
+
+![изображение](https://user-images.githubusercontent.com/81614352/149626079-a46008b2-d571-40e1-984e-06d83c1680c4.png)
+
