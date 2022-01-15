@@ -24,7 +24,10 @@ Adapter board(soldered side by side to the main pcb):
 
 
 ## An example of internal mount with a 3D printed frame
-Adapter's (frame) STL model is in CAD folder
+Adapter's (frame) STL model is in CAD folder.
+
+The display and rotary encoder mounted on top of the Amiga 500. Its model also in the "Cad" folder.
+
 ![изображение](https://user-images.githubusercontent.com/81614352/149626035-84b3a01c-4d0e-413d-bd10-ca4955fdb4cc.png)
 
 ![изображение](https://user-images.githubusercontent.com/81614352/149626079-a46008b2-d571-40e1-984e-06d83c1680c4.png)
