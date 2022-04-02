@@ -12,7 +12,10 @@ Please refer to FlashFloppy's repository for the latest one: https://github.com/
 
 ## MPU programming
 
-As some early revisions of the MPU can not be programmed via DFU, therefore I use SWD interface for programming.
+Some early revisions of the MPU can not be programmed via DFU. It is described in an application note AN2606(chapter 16.3.2):
+https://www.st.com/resource/en/application_note/cd00167594-stm32-microcontroller-system-memory-boot-mode-stmicroelectronics.pdf
+
+As I have such early revision of the MPU, I needed to use SWD interface. Actually, DFU mode flashing was not considered in the design.
 
 Hardware: ST-LINK V2 (Chinese clone).
 The MPU supplied from ST-LINK. It is enough for programming.
@@ -20,7 +23,7 @@ The MPU supplied from ST-LINK. It is enough for programming.
 ![image](https://user-images.githubusercontent.com/81614352/161376170-f51de39b-b773-4ece-bd92-1ba2a78fee27.png)
 
 
-Software: STM32 ST-LINK Utility. Can be downloaded here: https://www.st.com/en/development-tools/stsw-link004.html
+Software(Windows): STM32 ST-LINK Utility. Can be downloaded here: https://www.st.com/en/development-tools/stsw-link004.html
 
 One important note to the ST-LINK flashing method. The following steps might be required if the MPU already programmed:
 1. Run the tool, select "Connect under RESET" in settings. 
@@ -32,6 +35,11 @@ One important note to the ST-LINK flashing method. The following steps might be 
 
 ![image](https://user-images.githubusercontent.com/81614352/161376354-b9f38411-f5d8-49ba-a336-605454dd63c4.png)
 
+Other HW tools can be used for the MPU programming:
+
+- FT2232H based with OpenOCD. Very easy to build.
+- J-LINK
+- U-LINK
 
 
 ## PCB:
@@ -61,6 +69,6 @@ The display and rotary encoder mounted on top of the Amiga 500. Its model also i
 3D render
 ![изображение](https://user-images.githubusercontent.com/81614352/151380256-0f387eae-9beb-4d54-aaa4-10b2c35eb94d.png)
 
-Connected to an Amiga 500
+The device in 3D printed enclosure. Connected to my Amiga 500
 ![изображение](https://user-images.githubusercontent.com/81614352/151381351-cd62bc86-be2c-4154-a5bb-29decbf1ad6e.png)
 
