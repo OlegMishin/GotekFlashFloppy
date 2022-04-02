@@ -10,6 +10,27 @@ Adapter's Gerbers located in **"gff_int_adapter_rev0.zip"** archive.
 
 Please refer to FlashFloppy's repository for the latest one: https://github.com/keirf/FlashFloppy
 
+## MPU programming
+
+As some early revisions of the MPU can not be programmed via DFU, I use SWD interface for programming.
+Hardware: ST-LINK V2 (Chinese clone).
+![image](https://user-images.githubusercontent.com/81614352/161376170-f51de39b-b773-4ece-bd92-1ba2a78fee27.png)
+
+
+Software: STM32 ST-LINK Utility. Can be downloaded here: https://www.st.com/en/development-tools/stsw-link004.html
+
+One important note to the ST-LINK flashing method. The following steps might be required if the MPU already programmed:
+1. Run the tool, select "Connect under RESET" in settings. 
+2. Connect ST-Link (it provides 3.3V which is enough for the MPU programming). 
+3. Short C9 (to activate RESET)
+4. Press "Connect" button, 
+5. Release RESET
+6. Open "hex" file and program it pressing "Program Verify" button.
+
+![image](https://user-images.githubusercontent.com/81614352/161376354-b9f38411-f5d8-49ba-a336-605454dd63c4.png)
+
+
+
 ## PCB:
 
 Two layers, 1.6mm thikness. Optimized for JLCpcb.
