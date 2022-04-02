@@ -46,7 +46,7 @@ Other HW tools can be used for the MPU programming:
 
 Two layers, 1.6mm thikness. Optimized for JLCpcb.
 
-3D render of the pcb:
+3D render of the pcb(Just a nice picture. Some components must be unpopulated):
 
 ![изображение](https://user-images.githubusercontent.com/81614352/147295152-706d75bf-d8f5-40ec-aabd-f7ac8d367e31.png)
 
@@ -66,7 +66,7 @@ The display and rotary encoder mounted on top of the Amiga 500. Its model also i
 ![изображение](https://user-images.githubusercontent.com/81614352/149626079-a46008b2-d571-40e1-984e-06d83c1680c4.png)
 
 ## As an external floppy
-3D render (Just a nice picture. Some components must be unpopulated).
+3D render.
 
 ![изображение](https://user-images.githubusercontent.com/81614352/151380256-0f387eae-9beb-4d54-aaa4-10b2c35eb94d.png)
 
