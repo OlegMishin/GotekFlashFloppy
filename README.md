@@ -66,7 +66,8 @@ The display and rotary encoder mounted on top of the Amiga 500. Its model also i
 ![изображение](https://user-images.githubusercontent.com/81614352/149626079-a46008b2-d571-40e1-984e-06d83c1680c4.png)
 
 ## As an external floppy
-3D render
+3D render (Just a nice picture. Some components must be unpopulated).
+
 ![изображение](https://user-images.githubusercontent.com/81614352/151380256-0f387eae-9beb-4d54-aaa4-10b2c35eb94d.png)
 
 The device in 3D printed enclosure. Connected to my Amiga 500
