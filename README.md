@@ -12,7 +12,7 @@ Please refer to FlashFloppy's repository for the latest one: https://github.com/
 
 ## MPU programming
 
-As some early revisions of the MPU can not be programmed via DFU, I use SWD interface for programming.
+As some early revisions of the MPU can not be programmed via DFU, therefore I use SWD interface for programming.
 Hardware: ST-LINK V2 (Chinese clone).
 ![image](https://user-images.githubusercontent.com/81614352/161376170-f51de39b-b773-4ece-bd92-1ba2a78fee27.png)
 
