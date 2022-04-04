@@ -1,10 +1,17 @@
 # GotekFlashFloppy
 
 A Gotek based PCB for Amiga computer. Can be mounted externally and internally.
-Can be equipped with push buttons or with a rotary encoder. A 0.96" OLED display can be directly mounted using 4 spacers. 
+Can be equipped with push buttons or with a rotary encoder. A 0.96" OLED display can be directly mounted using 4 spacers. I use 0.96 128x64 OLED (26.3x26.3mm overall dimensions) which is available in various online stores.
 
 A 23-pin connector can be directly soldered to the pcb. Also, with an adapter pcb (23 to 34 pin) it can be mounted internally as "classic" Gotek pcb. 
 Adapter's Gerbers located in **"gff_int_adapter_rev0.zip"** archive.
+
+## Building
+
+The BOM provided to build the drive as an external. Drive select configured as Drive #1 (selectable via R6/R7/R10).
+The enclosure STL files also provided in "Cad\external case" location.
+U4/U5 and the buttons unmounted. 
+For louder movement sound I would recommend to use a MOSFET (e.g. IRLML2803 etc) instead of the BJT due to lower voltage drop.
 
 ## Firmware: 
 
@@ -12,10 +19,10 @@ Please refer to FlashFloppy's repository for the latest one: https://github.com/
 
 ## MPU programming
 
-Some early revisions of the MPU can not be programmed via DFU. It is described in an application note AN2606(chapter 16.3.2):
+Some early revisions of the MPU it can not be programmed via DFU. It is described in an application note AN2606(chapter 16.3.2):
 https://www.st.com/resource/en/application_note/cd00167594-stm32-microcontroller-system-memory-boot-mode-stmicroelectronics.pdf
 
-As I have such early revision of the MPU, I needed to use SWD interface. Actually, DFU mode flashing was not considered in the design.
+As I have such early revision of the MPU, I needed to use SWD interface. Actually, DFU mode flashing was not considered in the design. Related jumpers will be added in the next pcb revision.
 
 Hardware: ST-LINK V2 (Chinese clone).
 The MPU supplied from ST-LINK. It is enough for programming.
