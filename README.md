@@ -8,7 +8,7 @@ Adapter's Gerbers located in **"gff_int_adapter_rev0.zip"** archive.
 
 ## Building
 
-The BOM provided to build the drive as an external. Drive select configured as Drive #1 (selectable via R6/R7/R10).
+The BOM provided to build the drive as an external. Drive select configured as Drive 1 (selectable via R6/R7/R10).
 The enclosure STL files also provided in "Cad\external case" location.
 U4/U5 and the buttons unmounted. 
 For louder movement sound I would recommend to use a MOSFET (e.g. IRLML2803 etc) instead of the BJT due to lower voltage drop.
